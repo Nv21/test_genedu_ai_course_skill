@@ -1,0 +1,12 @@
+# Compiled / environment - never committed (task: no compiled executables;
+# the environment is recreated from requirements*.txt)
+__pycache__/
+*.pyc
+.venv/
+*.egg-info/
+.DS_Store
+
+# Runtime data - recreated on demand
+.wiki_trends_cache/
+out/
+*.err
