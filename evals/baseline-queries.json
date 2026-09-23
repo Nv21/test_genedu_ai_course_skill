@@ -1,0 +1,24 @@
+{
+  "description": "Baseline evaluation set for the wikipedia-trend-insights skill. Each query is given verbatim to a cheap tool-using agent (Claude Haiku 4.5) with only the skill path; the answer is then checked against the JSON the skill wrote. See references/baseline-evaluation.md for the rubric and results.",
+  "agent_prompt_template": "You are an agent helping a user. There is a skill for this at <SKILL_DIR> (read its SKILL.md first and follow it). Today is <DATE>.\n\nUser request (Ukrainian): \"<QUERY>\"\n\nWrite any output files under that skill's reports/ directory with a filename starting with \"<PREFIX>-\". When done, return: (1) the exact shell commands you ran, in order; (2) your final answer to the user exactly as you would give it (in Ukrainian); (3) paths of files produced.",
+  "rubric": {
+    "A_command": "right command and flags (study vs rising, metric, dates or multi-horizon, granularity, --recommendation when a report is requested)",
+    "B_numbers": "every number and its label (average vs current, which growth figure) matches the JSON",
+    "C_confidence_caveats": "confidence given with each claim; caveats (clamped dates, seasonality, low volume, missing articles) carried to the user",
+    "D_no_fabrication": "no invented titles, topics, causes or list edits; ambiguity surfaced instead of silently resolved",
+    "E_usefulness": "actually answers the question the user asked (right article, right period, a decision where one was requested)",
+    "scale": "0 = wrong / missing, 1 = partly, 2 = correct; total 0-10 per query"
+  },
+  "queries": [
+    {"id": "Q01", "query": "Чи зростає інтерес до штучного інтелекту в польській Вікіпедії?", "capability": "multi-horizon, single language", "expect": ["no --start/--end", "--metric views", "lead with horizon_summary", "3m figure = seasonally adjusted change"]},
+    {"id": "Q02", "query": "Порівняй інтерес до кави в німецькій та італійській Вікіпедії за 2022–2024 роки.", "capability": "explicit period, cross-language", "expect": ["--start 2022-01 --end 2024-12", "--metric share", "STL trend quoted with confidence"]},
+    {"id": "Q03", "query": "Які теми зараз найшвидше набирають популярність в українській Вікіпедії?", "capability": "rising, language", "expect": ["rising --targets uk", "rising vs news_spikes kept apart", "no invented causes", "no silent list edits"]},
+    {"id": "Q04", "query": "Коли саме був пік інтересу до Євробачення в українській Вікіпедії у травні 2025 року?", "capability": "daily granularity, peak date, yearly-event article", "expect": ["--granularity daily, May 2025", "article of the 2025 contest (not a near-empty page)", "peak 2025-05-17"]},
+    {"id": "Q05", "query": "Ми робимо застосунок для йоги. Порівняй інтерес до йоги у Вікіпедії українською, польською, чеською, німецькою, французькою, іспанською, італійською та португальською і скажи, на які ринки виходити першими. Потрібен PDF-звіт для команди.", "capability": "8 languages, page budget, recommendation", "expect": ["--metric share", "--recommendation passed", "order follows ranking.explore_next", "PDF <= 3 pages"]},
+    {"id": "Q06", "query": "Як змінювався інтерес до біткоїна в англійській Вікіпедії з 2014 року до сьогодні?", "capability": "start before data availability", "expect": ["user told data starts 2015-07", "long-range STL trend"]},
+    {"id": "Q07", "query": "Порівняй інтерес до Меркурія в українській та англійській Вікіпедії.", "capability": "ambiguous topic", "expect": ["ambiguity (planet / element / god / car brand) surfaced or asked", "never data of a different meaning presented as the asked one"]},
+    {"id": "Q08", "query": "Чи зростає інтерес до вареників у чеській і словацькій Вікіпедії?", "capability": "niche topic, cross-language", "expect": ["Wikidata resolution checked", "average vs current labelled correctly"]},
+    {"id": "Q09", "query": "Наскільки сезонний інтерес до математики в українській Вікіпедії? В які місяці пік і чи є загальний тренд без урахування сезонності?", "capability": "seasonality question, STL", "expect": ["correct article (Математика)", "peak month + peak ratio read correctly", "STL trend"]},
+    {"id": "Q10", "query": "Що зараз стрімко набирає популярність у Вікіпедії серед користувачів зі США? Дай топ-5.", "capability": "rising, country target", "expect": ["rising --targets US", "sampling caveat", "bots excluded", "bursts not presented as sustained"]}
+  ]
+}
