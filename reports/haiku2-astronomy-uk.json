@@ -1,0 +1,205 @@
+{
+  "topic_query": "astronomy",
+  "date_range": {
+    "start": "2024-09-01",
+    "end": "2026-08-31",
+    "granularity": "monthly"
+  },
+  "metric": "views",
+  "resolved_articles": {
+    "uk": {
+      "lang": "uk",
+      "title": "Астрономія",
+      "method": "wikidata",
+      "confidence": "high",
+      "wikidata_qid": "Q333",
+      "candidates": [],
+      "note": "Matched via Wikidata sitelink - same concept across languages."
+    }
+  },
+  "trends": {
+    "uk": {
+      "n_points": 24,
+      "metric": "views",
+      "avg_value": 971.75,
+      "first_period_avg": 2736.333,
+      "last_period_avg": 321.0,
+      "growth_pct": -88.3,
+      "slope_per_period": -93.2243,
+      "r_squared": 0.484,
+      "p_value": 0.0002,
+      "anomalies": [
+        {
+          "date": "2024-09-01",
+          "value": 4687.0,
+          "z_score": 7.36
+        }
+      ],
+      "spike_sensitive": false,
+      "confidence": "high",
+      "confidence_reason": "Тренд статистично значущий (p=0.000) і пояснює істотну частку варіації (R²=0.48).",
+      "series": [
+        {
+          "date": "2024-09-01",
+          "views": 4687,
+          "value": 4687.0
+        },
+        {
+          "date": "2024-10-01",
+          "views": 1776,
+          "value": 1776.0
+        },
+        {
+          "date": "2024-11-01",
+          "views": 1746,
+          "value": 1746.0
+        },
+        {
+          "date": "2024-12-01",
+          "views": 1634,
+          "value": 1634.0
+        },
+        {
+          "date": "2025-01-01",
+          "views": 1558,
+          "value": 1558.0
+        },
+        {
+          "date": "2025-02-01",
+          "views": 1296,
+          "value": 1296.0
+        },
+        {
+          "date": "2025-03-01",
+          "views": 1068,
+          "value": 1068.0
+        },
+        {
+          "date": "2025-04-01",
+          "views": 1019,
+          "value": 1019.0
+        },
+        {
+          "date": "2025-05-01",
+          "views": 789,
+          "value": 789.0
+        },
+        {
+          "date": "2025-06-01",
+          "views": 361,
+          "value": 361.0
+        },
+        {
+          "date": "2025-07-01",
+          "views": 305,
+          "value": 305.0
+        },
+        {
+          "date": "2025-08-01",
+          "views": 375,
+          "value": 375.0
+        },
+        {
+          "date": "2025-09-01",
+          "views": 1642,
+          "value": 1642.0
+        },
+        {
+          "date": "2025-10-01",
+          "views": 635,
+          "value": 635.0
+        },
+        {
+          "date": "2025-11-01",
+          "views": 557,
+          "value": 557.0
+        },
+        {
+          "date": "2025-12-01",
+          "views": 622,
+          "value": 622.0
+        },
+        {
+          "date": "2026-01-01",
+          "views": 449,
+          "value": 449.0
+        },
+        {
+          "date": "2026-02-01",
+          "views": 425,
+          "value": 425.0
+        },
+        {
+          "date": "2026-03-01",
+          "views": 410,
+          "value": 410.0
+        },
+        {
+          "date": "2026-04-01",
+          "views": 405,
+          "value": 405.0
+        },
+        {
+          "date": "2026-05-01",
+          "views": 600,
+          "value": 600.0
+        },
+        {
+          "date": "2026-06-01",
+          "views": 281,
+          "value": 281.0
+        },
+        {
+          "date": "2026-07-01",
+          "views": 322,
+          "value": 322.0
+        },
+        {
+          "date": "2026-08-01",
+          "views": 360,
+          "value": 360.0
+        }
+      ],
+      "yoy_growth_pct": -7.5,
+      "seasonal_months": [
+        "09"
+      ]
+    }
+  },
+  "ranking": {
+    "by_growth": [
+      "uk"
+    ],
+    "by_current_interest": [
+      "uk"
+    ],
+    "by_confidence": [
+      "uk"
+    ],
+    "explore_next": [
+      {
+        "lang": "uk",
+        "tag": "reliably_declining",
+        "level": 971.75,
+        "trend_growth_pct": -88.3,
+        "yoy_growth_pct": -7.5,
+        "confidence": "high"
+      }
+    ]
+  },
+  "recommendation_check": null,
+  "caveats": [
+    "Кінець періоду скориговано до 2026-08-31: дані за поточний місяць ще неповні.",
+    "[uk] Сезонність: піки повторюються щороку в місяці 09 - «зростання*» (перші 3 vs останні 3) може бути спотворене; порівняння рік до року: -7.5%."
+  ],
+  "api_calls": {
+    "requests_made": 1,
+    "cache_hits": 2
+  },
+  "output_files": {
+    "chart_png": "reports/haiku2-astronomy-uk.png",
+    "report_pdf": "reports/haiku2-astronomy-uk.pdf",
+    "report_pages": 1,
+    "analysis_json": "reports/haiku2-astronomy-uk.json"
+  }
+}

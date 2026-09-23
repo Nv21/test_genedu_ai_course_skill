@@ -1,0 +1,233 @@
+{
+  "topic_query": "intermittent fasting",
+  "date_range": {
+    "start": "2024-09-01",
+    "end": "2026-09-30",
+    "granularity": "monthly"
+  },
+  "metric": "share",
+  "resolved_articles": {
+    "cs": {
+      "lang": "cs",
+      "title": "Přerušovaný půst",
+      "method": "wikidata",
+      "confidence": "high",
+      "wikidata_qid": "Q1666254",
+      "candidates": [],
+      "note": "Matched via Wikidata sitelink - same concept across languages."
+    },
+    "pl": {
+      "lang": "pl",
+      "title": null,
+      "method": "search_fallback",
+      "confidence": "none",
+      "wikidata_qid": null,
+      "candidates": [
+        {
+          "title": "Stres oksydacyjny",
+          "snippet": "alterations in cellular physiology produced by caloric restriction, intermittent fasting, exercise and dietary phytonutrients: &quot;Mitohormesis&quot; for health and"
+        },
+        {
+          "title": "Głodówka lecznicza",
+          "snippet": "FJ.F. Trepanowski John FJ.F., Krista AK.A. Varady Krista AK.A., Intermittent fasting combined with calorie restriction is effective for weight loss and"
+        },
+        {
+          "title": "Paleolityczny styl życia",
+          "snippet": "Clinical Nutrition”. 86 (1), s. 7-13, 2007.  Adrienne Barnosky, et al. Intermittent fasting vs daily calorie restriction for type 2 diabetes prevention: a review"
+        },
+        {
+          "title": "Skróty i skrótowce używane w medycynie",
+          "snippet": "embrionale) FK – fosfataza kwaśna, ACP FPG – (ang.) stężenie glukozy na czczo (Fasting Plasma Glucose) FSH – hormon folikulotropowy fT3 – wolna trójjodotyronina"
+        },
+        {
+          "title": "Chelatacja (medycyna)",
+          "snippet": "[dostęp 2024-10-10]  (ang.). B.B. Guldager B.B. i inni, EDTA treatment of intermittent claudication--a double-blind, placebo-controlled study, „Journal of Internal"
+        }
+      ],
+      "note": "No Wikidata sitelink, and the top full-text search hit ('Stres oksydacyjny') shares no words with the topic - likely a false match (query may need to be in pl's language, or this wiki may not cover the topic). Not reporting a guess; pass --articles pl:<title> if you know the correct one."
+    }
+  },
+  "trends": {
+    "cs": {
+      "n_points": 24,
+      "metric": "share_per_million",
+      "avg_value": 4.425,
+      "first_period_avg": 6.677,
+      "last_period_avg": 2.056,
+      "growth_pct": -69.2,
+      "slope_per_period": -0.212,
+      "r_squared": 0.282,
+      "p_value": 0.0076,
+      "anomalies": [
+        {
+          "date": "2025-04-01",
+          "value": 14.296329726250953,
+          "z_score": 8.03
+        }
+      ],
+      "spike_sensitive": false,
+      "confidence": "medium",
+      "confidence_reason": "Тренд імовірний, але не строго значущий (p=0.008); варто перевірити на довшому періоді.",
+      "series": [
+        {
+          "date": "2024-09-01",
+          "views": 393,
+          "value": 6.309
+        },
+        {
+          "date": "2024-10-01",
+          "views": 634,
+          "value": 8.945
+        },
+        {
+          "date": "2024-11-01",
+          "views": 329,
+          "value": 4.778
+        },
+        {
+          "date": "2024-12-01",
+          "views": 294,
+          "value": 4.178
+        },
+        {
+          "date": "2025-01-01",
+          "views": 489,
+          "value": 5.864
+        },
+        {
+          "date": "2025-02-01",
+          "views": 272,
+          "value": 3.899
+        },
+        {
+          "date": "2025-03-01",
+          "views": 366,
+          "value": 4.887
+        },
+        {
+          "date": "2025-04-01",
+          "views": 958,
+          "value": 14.296
+        },
+        {
+          "date": "2025-05-01",
+          "views": 225,
+          "value": 3.056
+        },
+        {
+          "date": "2025-06-01",
+          "views": 238,
+          "value": 4.229
+        },
+        {
+          "date": "2025-07-01",
+          "views": 157,
+          "value": 2.567
+        },
+        {
+          "date": "2025-08-01",
+          "views": 386,
+          "value": 6.711
+        },
+        {
+          "date": "2025-09-01",
+          "views": 270,
+          "value": 4.712
+        },
+        {
+          "date": "2025-10-01",
+          "views": 141,
+          "value": 2.119
+        },
+        {
+          "date": "2025-11-01",
+          "views": 151,
+          "value": 2.072
+        },
+        {
+          "date": "2025-12-01",
+          "views": 218,
+          "value": 3.635
+        },
+        {
+          "date": "2026-01-01",
+          "views": 474,
+          "value": 7.032
+        },
+        {
+          "date": "2026-02-01",
+          "views": 196,
+          "value": 3.362
+        },
+        {
+          "date": "2026-03-01",
+          "views": 179,
+          "value": 3.084
+        },
+        {
+          "date": "2026-04-01",
+          "views": 135,
+          "value": 2.469
+        },
+        {
+          "date": "2026-05-01",
+          "views": 109,
+          "value": 1.823
+        },
+        {
+          "date": "2026-06-01",
+          "views": 115,
+          "value": 2.142
+        },
+        {
+          "date": "2026-07-01",
+          "views": 91,
+          "value": 1.713
+        },
+        {
+          "date": "2026-08-01",
+          "views": 119,
+          "value": 2.312
+        }
+      ]
+    },
+    "pl": {
+      "n_points": 0,
+      "metric": "share",
+      "avg_value": null,
+      "first_period_avg": null,
+      "last_period_avg": null,
+      "growth_pct": null,
+      "slope_per_period": null,
+      "r_squared": null,
+      "p_value": null,
+      "anomalies": [],
+      "spike_sensitive": false,
+      "confidence": "none",
+      "confidence_reason": "Немає даних (API не повернув перегляди для цього періоду/статті).",
+      "series": []
+    }
+  },
+  "ranking": {
+    "by_growth": [
+      "cs"
+    ],
+    "by_current_interest": [
+      "cs"
+    ],
+    "by_confidence": [
+      "cs"
+    ]
+  },
+  "caveats": [],
+  "api_calls": {
+    "requests_made": 0,
+    "cache_hits": 5
+  },
+  "output_files": {
+    "chart_png": "reports/haiku-intermittent-fasting-pl-cs.png",
+    "report_pdf": "reports/haiku-intermittent-fasting-pl-cs.pdf",
+    "report_pages": 1,
+    "analysis_json": "reports/haiku-intermittent-fasting-pl-cs.json"
+  }
+}

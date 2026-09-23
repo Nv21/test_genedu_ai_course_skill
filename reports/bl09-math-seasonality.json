@@ -1,0 +1,599 @@
+{
+  "topic_query": null,
+  "date_range": {
+    "start": "2023-09-01",
+    "end": "2026-08-31",
+    "granularity": "monthly",
+    "mode": "multi_horizon"
+  },
+  "metric": "views",
+  "resolved_articles": {
+    "uk": {
+      "lang": "uk",
+      "title": "Математика",
+      "method": "manual",
+      "confidence": "high",
+      "wikidata_qid": null,
+      "candidates": [],
+      "note": "Title supplied explicitly by the caller."
+    }
+  },
+  "trends": {
+    "uk": {
+      "n_points": 36,
+      "metric": "views",
+      "avg_value": 2054.972,
+      "first_period_avg": 4853.667,
+      "last_period_avg": 714.333,
+      "growth_pct": -85.3,
+      "slope_per_period": -56.9094,
+      "r_squared": 0.92,
+      "p_value": 0.0,
+      "anomalies": [
+        {
+          "date": "2024-09-01",
+          "value": 2851.0,
+          "z_score": -13.72
+        },
+        {
+          "date": "2024-12-01",
+          "value": 2271.0,
+          "z_score": 3.64
+        },
+        {
+          "date": "2025-01-01",
+          "value": 2464.0,
+          "z_score": 5.84
+        },
+        {
+          "date": "2025-04-01",
+          "value": 1884.0,
+          "z_score": -4.19
+        },
+        {
+          "date": "2025-06-01",
+          "value": 774.0,
+          "z_score": -10.49
+        },
+        {
+          "date": "2025-09-01",
+          "value": 1495.0,
+          "z_score": -13.27
+        }
+      ],
+      "spike_sensitive": false,
+      "confidence": "high",
+      "confidence_reason": "Після вилучення сезонності: тренд статистично значущий (p=0.000) і пояснює істотну частку варіації (R²=0.92).",
+      "series": [
+        {
+          "date": "2023-09-01",
+          "views": 5592,
+          "value": 5592.0
+        },
+        {
+          "date": "2023-10-01",
+          "views": 4282,
+          "value": 4282.0
+        },
+        {
+          "date": "2023-11-01",
+          "views": 4687,
+          "value": 4687.0
+        },
+        {
+          "date": "2023-12-01",
+          "views": 3758,
+          "value": 3758.0
+        },
+        {
+          "date": "2024-01-01",
+          "views": 4298,
+          "value": 4298.0
+        },
+        {
+          "date": "2024-02-01",
+          "views": 3777,
+          "value": 3777.0
+        },
+        {
+          "date": "2024-03-01",
+          "views": 3450,
+          "value": 3450.0
+        },
+        {
+          "date": "2024-04-01",
+          "views": 3359,
+          "value": 3359.0
+        },
+        {
+          "date": "2024-05-01",
+          "views": 2346,
+          "value": 2346.0
+        },
+        {
+          "date": "2024-06-01",
+          "views": 1258,
+          "value": 1258.0
+        },
+        {
+          "date": "2024-07-01",
+          "views": 475,
+          "value": 475.0
+        },
+        {
+          "date": "2024-08-01",
+          "views": 610,
+          "value": 610.0
+        },
+        {
+          "date": "2024-09-01",
+          "views": 2851,
+          "value": 2851.0
+        },
+        {
+          "date": "2024-10-01",
+          "views": 2588,
+          "value": 2588.0
+        },
+        {
+          "date": "2024-11-01",
+          "views": 2645,
+          "value": 2645.0
+        },
+        {
+          "date": "2024-12-01",
+          "views": 2271,
+          "value": 2271.0
+        },
+        {
+          "date": "2025-01-01",
+          "views": 2464,
+          "value": 2464.0
+        },
+        {
+          "date": "2025-02-01",
+          "views": 2342,
+          "value": 2342.0
+        },
+        {
+          "date": "2025-03-01",
+          "views": 2443,
+          "value": 2443.0
+        },
+        {
+          "date": "2025-04-01",
+          "views": 1884,
+          "value": 1884.0
+        },
+        {
+          "date": "2025-05-01",
+          "views": 1734,
+          "value": 1734.0
+        },
+        {
+          "date": "2025-06-01",
+          "views": 774,
+          "value": 774.0
+        },
+        {
+          "date": "2025-07-01",
+          "views": 670,
+          "value": 670.0
+        },
+        {
+          "date": "2025-08-01",
+          "views": 692,
+          "value": 692.0
+        },
+        {
+          "date": "2025-09-01",
+          "views": 1495,
+          "value": 1495.0
+        },
+        {
+          "date": "2025-10-01",
+          "views": 1237,
+          "value": 1237.0
+        },
+        {
+          "date": "2025-11-01",
+          "views": 1272,
+          "value": 1272.0
+        },
+        {
+          "date": "2025-12-01",
+          "views": 979,
+          "value": 979.0
+        },
+        {
+          "date": "2026-01-01",
+          "views": 901,
+          "value": 901.0
+        },
+        {
+          "date": "2026-02-01",
+          "views": 1141,
+          "value": 1141.0
+        },
+        {
+          "date": "2026-03-01",
+          "views": 1366,
+          "value": 1366.0
+        },
+        {
+          "date": "2026-04-01",
+          "views": 1121,
+          "value": 1121.0
+        },
+        {
+          "date": "2026-05-01",
+          "views": 1074,
+          "value": 1074.0
+        },
+        {
+          "date": "2026-06-01",
+          "views": 840,
+          "value": 840.0
+        },
+        {
+          "date": "2026-07-01",
+          "views": 701,
+          "value": 701.0
+        },
+        {
+          "date": "2026-08-01",
+          "views": 602,
+          "value": 602.0
+        }
+      ],
+      "yoy_growth_pct": 0.3,
+      "seasonal_months": [
+        "09"
+      ],
+      "seasonal_strength": 0.927,
+      "trend_strength": 0.89,
+      "trend_change_pct": -71.2,
+      "trend_change_12m_pct": -41.6,
+      "seasonal_peak_month": "09",
+      "seasonal_amplitude": 3.659,
+      "seasonal_repeats": true,
+      "deseasonalized": true,
+      "adjusted_growth_pct": -69.1,
+      "trend_series": [
+        {
+          "date": "2023-09-01",
+          "value": 2732.031
+        },
+        {
+          "date": "2023-10-01",
+          "value": 2660.743
+        },
+        {
+          "date": "2023-11-01",
+          "value": 2591.315
+        },
+        {
+          "date": "2023-12-01",
+          "value": 2523.699
+        },
+        {
+          "date": "2024-01-01",
+          "value": 2457.847
+        },
+        {
+          "date": "2024-02-01",
+          "value": 2393.713
+        },
+        {
+          "date": "2024-03-01",
+          "value": 2331.253
+        },
+        {
+          "date": "2024-04-01",
+          "value": 2270.422
+        },
+        {
+          "date": "2024-05-01",
+          "value": 2211.179
+        },
+        {
+          "date": "2024-06-01",
+          "value": 2153.482
+        },
+        {
+          "date": "2024-07-01",
+          "value": 2097.29
+        },
+        {
+          "date": "2024-08-01",
+          "value": 2042.564
+        },
+        {
+          "date": "2024-09-01",
+          "value": 1989.267
+        },
+        {
+          "date": "2024-10-01",
+          "value": 1937.36
+        },
+        {
+          "date": "2024-11-01",
+          "value": 1886.807
+        },
+        {
+          "date": "2024-12-01",
+          "value": 1808.096
+        },
+        {
+          "date": "2025-01-01",
+          "value": 1703.78
+        },
+        {
+          "date": "2025-02-01",
+          "value": 1635.706
+        },
+        {
+          "date": "2025-03-01",
+          "value": 1576.965
+        },
+        {
+          "date": "2025-04-01",
+          "value": 1521.204
+        },
+        {
+          "date": "2025-05-01",
+          "value": 1471.381
+        },
+        {
+          "date": "2025-06-01",
+          "value": 1447.08
+        },
+        {
+          "date": "2025-07-01",
+          "value": 1409.438
+        },
+        {
+          "date": "2025-08-01",
+          "value": 1347.6
+        },
+        {
+          "date": "2025-09-01",
+          "value": 1288.474
+        },
+        {
+          "date": "2025-10-01",
+          "value": 1231.943
+        },
+        {
+          "date": "2025-11-01",
+          "value": 1177.892
+        },
+        {
+          "date": "2025-12-01",
+          "value": 1126.212
+        },
+        {
+          "date": "2026-01-01",
+          "value": 1076.8
+        },
+        {
+          "date": "2026-02-01",
+          "value": 1029.556
+        },
+        {
+          "date": "2026-03-01",
+          "value": 984.385
+        },
+        {
+          "date": "2026-04-01",
+          "value": 941.195
+        },
+        {
+          "date": "2026-05-01",
+          "value": 899.901
+        },
+        {
+          "date": "2026-06-01",
+          "value": 860.418
+        },
+        {
+          "date": "2026-07-01",
+          "value": 822.668
+        },
+        {
+          "date": "2026-08-01",
+          "value": 786.573
+        }
+      ]
+    }
+  },
+  "horizons": {
+    "uk": {
+      "3m_weekly": {
+        "n_points": 13,
+        "metric": "views",
+        "avg_value": 175.692,
+        "first_period_avg": 159.667,
+        "last_period_avg": 277.333,
+        "growth_pct": 73.7,
+        "slope_per_period": -2.9495,
+        "r_squared": 0.169,
+        "p_value": 0.1631,
+        "anomalies": [],
+        "spike_sensitive": false,
+        "confidence": "low",
+        "confidence_reason": "Після вилучення сезонності: тренд статистично незначущий (p=0.163) - шум переважає над сигналом у цих даних.",
+        "yoy_growth_pct": null,
+        "seasonal_months": [],
+        "seasonal_strength": null,
+        "trend_strength": null,
+        "trend_change_pct": null,
+        "trend_change_12m_pct": null,
+        "seasonal_peak_month": null,
+        "seasonal_amplitude": null,
+        "seasonal_repeats": null,
+        "deseasonalized": true,
+        "adjusted_growth_pct": -24.8,
+        "window": [
+          "2026-06-22",
+          "2026-09-20"
+        ]
+      },
+      "1y": {
+        "n_points": 12,
+        "metric": "views",
+        "avg_value": 1060.75,
+        "first_period_avg": 1334.667,
+        "last_period_avg": 714.333,
+        "growth_pct": -46.5,
+        "slope_per_period": -24.0259,
+        "r_squared": 0.293,
+        "p_value": 0.0692,
+        "anomalies": [
+          {
+            "date": "2025-09-01",
+            "value": 1495.0,
+            "z_score": -4.77
+          }
+        ],
+        "spike_sensitive": false,
+        "confidence": "medium",
+        "confidence_reason": "Після вилучення сезонності: тренд імовірний, але не строго значущий (p=0.069); варто перевірити на довшому періоді.",
+        "yoy_growth_pct": null,
+        "seasonal_months": [],
+        "seasonal_strength": null,
+        "trend_strength": null,
+        "trend_change_pct": null,
+        "trend_change_12m_pct": null,
+        "seasonal_peak_month": null,
+        "seasonal_amplitude": null,
+        "seasonal_repeats": null,
+        "deseasonalized": true,
+        "adjusted_growth_pct": -21.4,
+        "window": [
+          "2025-09-01",
+          "2026-08-31"
+        ]
+      },
+      "3y": {
+        "n_points": 36,
+        "metric": "views",
+        "avg_value": 2054.972,
+        "first_period_avg": 4853.667,
+        "last_period_avg": 714.333,
+        "growth_pct": -85.3,
+        "slope_per_period": -56.9094,
+        "r_squared": 0.92,
+        "p_value": 0.0,
+        "anomalies": [
+          {
+            "date": "2024-09-01",
+            "value": 2851.0,
+            "z_score": -13.72
+          },
+          {
+            "date": "2024-12-01",
+            "value": 2271.0,
+            "z_score": 3.64
+          },
+          {
+            "date": "2025-01-01",
+            "value": 2464.0,
+            "z_score": 5.84
+          },
+          {
+            "date": "2025-04-01",
+            "value": 1884.0,
+            "z_score": -4.19
+          },
+          {
+            "date": "2025-06-01",
+            "value": 774.0,
+            "z_score": -10.49
+          },
+          {
+            "date": "2025-09-01",
+            "value": 1495.0,
+            "z_score": -13.27
+          }
+        ],
+        "spike_sensitive": false,
+        "confidence": "high",
+        "confidence_reason": "Після вилучення сезонності: тренд статистично значущий (p=0.000) і пояснює істотну частку варіації (R²=0.92).",
+        "yoy_growth_pct": 0.3,
+        "seasonal_months": [
+          "09"
+        ],
+        "seasonal_strength": 0.927,
+        "trend_strength": 0.89,
+        "trend_change_pct": -71.2,
+        "trend_change_12m_pct": -41.6,
+        "seasonal_peak_month": "09",
+        "seasonal_amplitude": 3.659,
+        "seasonal_repeats": true,
+        "deseasonalized": true,
+        "adjusted_growth_pct": -69.1,
+        "window": [
+          "2023-09-01",
+          "2026-08-31"
+        ]
+      }
+    }
+  },
+  "horizon_summary": {
+    "uk": {
+      "directions": {
+        "3m_weekly": "unclear",
+        "1y": "down",
+        "3y": "down"
+      },
+      "changes": {
+        "3m_weekly": -24.8,
+        "1y": -41.6,
+        "3y": -71.2
+      },
+      "change_basis": {
+        "3m_weekly": "first3_vs_last3_weeks_seasonally_adjusted",
+        "1y": "stl_trend_12m",
+        "3y": "stl_trend"
+      },
+      "pattern": "steady_decline",
+      "text": "Стабільно падає і за 3 роки, і за останній рік; останні 3 місяці - без надійного сигналу."
+    }
+  },
+  "ranking": {
+    "by_growth": [
+      "uk"
+    ],
+    "by_current_interest": [
+      "uk"
+    ],
+    "by_confidence": [
+      "uk"
+    ],
+    "explore_next": [
+      {
+        "lang": "uk",
+        "tag": "reliably_declining",
+        "level": 2054.972,
+        "trend_growth_pct": -71.2,
+        "recent_12m_pct": -41.6,
+        "confidence": "high"
+      }
+    ]
+  },
+  "recommendation_check": null,
+  "caveats": [
+    "[uk] Сезонність: пік щороку в місяці 09 (типовий пік ≈ ×4.7 від мінімуму року). «Зростання*» (перші 3 vs останні 3) нею спотворене; тренд без сезонності (STL): -71.2% за період, -41.6% за останні 12 міс."
+  ],
+  "api_calls": {
+    "requests_made": 2,
+    "cache_hits": 0
+  },
+  "output_files": {
+    "chart_png": "reports/bl09-math-seasonality.png",
+    "report_pdf": "reports/bl09-math-seasonality.pdf",
+    "report_pages": 1,
+    "analysis_json": "reports/bl09-math-seasonality.json"
+  }
+}

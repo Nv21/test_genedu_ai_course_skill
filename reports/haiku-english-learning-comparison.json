@@ -1,0 +1,928 @@
+{
+  "topic_query": "English language",
+  "date_range": {
+    "start": "2024-09-01",
+    "end": "2026-09-30",
+    "granularity": "monthly"
+  },
+  "metric": "share",
+  "resolved_articles": {
+    "uk": {
+      "lang": "uk",
+      "title": "Англійська мова",
+      "method": "wikidata",
+      "confidence": "high",
+      "wikidata_qid": "Q1860",
+      "candidates": [],
+      "note": "Matched via Wikidata sitelink - same concept across languages."
+    },
+    "pl": {
+      "lang": "pl",
+      "title": "Język angielski",
+      "method": "wikidata",
+      "confidence": "high",
+      "wikidata_qid": "Q1860",
+      "candidates": [],
+      "note": "Matched via Wikidata sitelink - same concept across languages."
+    },
+    "tr": {
+      "lang": "tr",
+      "title": "İngilizce",
+      "method": "wikidata",
+      "confidence": "high",
+      "wikidata_qid": "Q1860",
+      "candidates": [],
+      "note": "Matched via Wikidata sitelink - same concept across languages."
+    },
+    "vi": {
+      "lang": "vi",
+      "title": "Tiếng Anh",
+      "method": "wikidata",
+      "confidence": "high",
+      "wikidata_qid": "Q1860",
+      "candidates": [],
+      "note": "Matched via Wikidata sitelink - same concept across languages."
+    },
+    "es": {
+      "lang": "es",
+      "title": "Idioma inglés",
+      "method": "wikidata",
+      "confidence": "high",
+      "wikidata_qid": "Q1860",
+      "candidates": [],
+      "note": "Matched via Wikidata sitelink - same concept across languages."
+    },
+    "pt": {
+      "lang": "pt",
+      "title": "Língua inglesa",
+      "method": "wikidata",
+      "confidence": "high",
+      "wikidata_qid": "Q1860",
+      "candidates": [],
+      "note": "Matched via Wikidata sitelink - same concept across languages."
+    }
+  },
+  "trends": {
+    "uk": {
+      "n_points": 24,
+      "metric": "share_per_million",
+      "avg_value": 127.021,
+      "first_period_avg": 152.918,
+      "last_period_avg": 107.208,
+      "growth_pct": -29.9,
+      "slope_per_period": -1.8278,
+      "r_squared": 0.685,
+      "p_value": 0.0,
+      "anomalies": [],
+      "spike_sensitive": false,
+      "confidence": "high",
+      "confidence_reason": "Тренд статистично значущий (p=0.000) і пояснює істотну частку варіації (R²=0.68).",
+      "series": [
+        {
+          "date": "2024-09-01",
+          "views": 11590,
+          "value": 155.551
+        },
+        {
+          "date": "2024-10-01",
+          "views": 12538,
+          "value": 151.034
+        },
+        {
+          "date": "2024-11-01",
+          "views": 12757,
+          "value": 152.168
+        },
+        {
+          "date": "2024-12-01",
+          "views": 11548,
+          "value": 136.774
+        },
+        {
+          "date": "2025-01-01",
+          "views": 12881,
+          "value": 136.869
+        },
+        {
+          "date": "2025-02-01",
+          "views": 10884,
+          "value": 132.81
+        },
+        {
+          "date": "2025-03-01",
+          "views": 11985,
+          "value": 150.548
+        },
+        {
+          "date": "2025-04-01",
+          "views": 10320,
+          "value": 143.042
+        },
+        {
+          "date": "2025-05-01",
+          "views": 8909,
+          "value": 129.041
+        },
+        {
+          "date": "2025-06-01",
+          "views": 6434,
+          "value": 119.919
+        },
+        {
+          "date": "2025-07-01",
+          "views": 6859,
+          "value": 110.257
+        },
+        {
+          "date": "2025-08-01",
+          "views": 7412,
+          "value": 119.932
+        },
+        {
+          "date": "2025-09-01",
+          "views": 8464,
+          "value": 138.173
+        },
+        {
+          "date": "2025-10-01",
+          "views": 7984,
+          "value": 120.888
+        },
+        {
+          "date": "2025-11-01",
+          "views": 7244,
+          "value": 107.898
+        },
+        {
+          "date": "2025-12-01",
+          "views": 7094,
+          "value": 127.826
+        },
+        {
+          "date": "2026-01-01",
+          "views": 6888,
+          "value": 113.904
+        },
+        {
+          "date": "2026-02-01",
+          "views": 6186,
+          "value": 119.85
+        },
+        {
+          "date": "2026-03-01",
+          "views": 6646,
+          "value": 120.585
+        },
+        {
+          "date": "2026-04-01",
+          "views": 6165,
+          "value": 115.481
+        },
+        {
+          "date": "2026-05-01",
+          "views": 6957,
+          "value": 124.343
+        },
+        {
+          "date": "2026-06-01",
+          "views": 5409,
+          "value": 111.96
+        },
+        {
+          "date": "2026-07-01",
+          "views": 5390,
+          "value": 101.7
+        },
+        {
+          "date": "2026-08-01",
+          "views": 5476,
+          "value": 107.964
+        }
+      ]
+    },
+    "pl": {
+      "n_points": 24,
+      "metric": "share_per_million",
+      "avg_value": 45.388,
+      "first_period_avg": 50.743,
+      "last_period_avg": 43.546,
+      "growth_pct": -14.2,
+      "slope_per_period": -0.4091,
+      "r_squared": 0.479,
+      "p_value": 0.0002,
+      "anomalies": [],
+      "spike_sensitive": false,
+      "confidence": "high",
+      "confidence_reason": "Тренд статистично значущий (p=0.000) і пояснює істотну частку варіації (R²=0.48).",
+      "series": [
+        {
+          "date": "2024-09-01",
+          "views": 9611,
+          "value": 49.929
+        },
+        {
+          "date": "2024-10-01",
+          "views": 10234,
+          "value": 49.036
+        },
+        {
+          "date": "2024-11-01",
+          "views": 11661,
+          "value": 53.262
+        },
+        {
+          "date": "2024-12-01",
+          "views": 11498,
+          "value": 52.317
+        },
+        {
+          "date": "2025-01-01",
+          "views": 12414,
+          "value": 49.236
+        },
+        {
+          "date": "2025-02-01",
+          "views": 9932,
+          "value": 47.066
+        },
+        {
+          "date": "2025-03-01",
+          "views": 11547,
+          "value": 51.495
+        },
+        {
+          "date": "2025-04-01",
+          "views": 9133,
+          "value": 45.816
+        },
+        {
+          "date": "2025-05-01",
+          "views": 8562,
+          "value": 44.077
+        },
+        {
+          "date": "2025-06-01",
+          "views": 7352,
+          "value": 43.049
+        },
+        {
+          "date": "2025-07-01",
+          "views": 7962,
+          "value": 42.637
+        },
+        {
+          "date": "2025-08-01",
+          "views": 8827,
+          "value": 44.828
+        },
+        {
+          "date": "2025-09-01",
+          "views": 8458,
+          "value": 44.674
+        },
+        {
+          "date": "2025-10-01",
+          "views": 10137,
+          "value": 50.36
+        },
+        {
+          "date": "2025-11-01",
+          "views": 8455,
+          "value": 37.035
+        },
+        {
+          "date": "2025-12-01",
+          "views": 7850,
+          "value": 41.28
+        },
+        {
+          "date": "2026-01-01",
+          "views": 8902,
+          "value": 43.577
+        },
+        {
+          "date": "2026-02-01",
+          "views": 7257,
+          "value": 40.766
+        },
+        {
+          "date": "2026-03-01",
+          "views": 7886,
+          "value": 44.15
+        },
+        {
+          "date": "2026-04-01",
+          "views": 7365,
+          "value": 42.81
+        },
+        {
+          "date": "2026-05-01",
+          "views": 7429,
+          "value": 41.275
+        },
+        {
+          "date": "2026-06-01",
+          "views": 7940,
+          "value": 44.215
+        },
+        {
+          "date": "2026-07-01",
+          "views": 8244,
+          "value": 45.946
+        },
+        {
+          "date": "2026-08-01",
+          "views": 7119,
+          "value": 40.478
+        }
+      ]
+    },
+    "tr": {
+      "n_points": 24,
+      "metric": "share_per_million",
+      "avg_value": 65.085,
+      "first_period_avg": 83.049,
+      "last_period_avg": 61.821,
+      "growth_pct": -25.6,
+      "slope_per_period": -0.3598,
+      "r_squared": 0.064,
+      "p_value": 0.2344,
+      "anomalies": [],
+      "spike_sensitive": false,
+      "confidence": "low",
+      "confidence_reason": "Тренд статистично незначущий (p=0.234) - шум переважає над сигналом у цих даних.",
+      "series": [
+        {
+          "date": "2024-09-01",
+          "views": 9224,
+          "value": 80.421
+        },
+        {
+          "date": "2024-10-01",
+          "views": 12545,
+          "value": 93.382
+        },
+        {
+          "date": "2024-11-01",
+          "views": 9927,
+          "value": 75.344
+        },
+        {
+          "date": "2024-12-01",
+          "views": 10783,
+          "value": 70.017
+        },
+        {
+          "date": "2025-01-01",
+          "views": 9496,
+          "value": 63.54
+        },
+        {
+          "date": "2025-02-01",
+          "views": 7264,
+          "value": 58.329
+        },
+        {
+          "date": "2025-03-01",
+          "views": 8785,
+          "value": 62.244
+        },
+        {
+          "date": "2025-04-01",
+          "views": 7723,
+          "value": 57.06
+        },
+        {
+          "date": "2025-05-01",
+          "views": 7659,
+          "value": 57.768
+        },
+        {
+          "date": "2025-06-01",
+          "views": 6114,
+          "value": 53.793
+        },
+        {
+          "date": "2025-07-01",
+          "views": 6042,
+          "value": 50.729
+        },
+        {
+          "date": "2025-08-01",
+          "views": 6188,
+          "value": 56.156
+        },
+        {
+          "date": "2025-09-01",
+          "views": 7094,
+          "value": 63.647
+        },
+        {
+          "date": "2025-10-01",
+          "views": 7703,
+          "value": 66.418
+        },
+        {
+          "date": "2025-11-01",
+          "views": 7687,
+          "value": 57.46
+        },
+        {
+          "date": "2025-12-01",
+          "views": 7886,
+          "value": 67.578
+        },
+        {
+          "date": "2026-01-01",
+          "views": 8023,
+          "value": 65.883
+        },
+        {
+          "date": "2026-02-01",
+          "views": 6428,
+          "value": 62.382
+        },
+        {
+          "date": "2026-03-01",
+          "views": 6999,
+          "value": 65.062
+        },
+        {
+          "date": "2026-04-01",
+          "views": 8312,
+          "value": 86.081
+        },
+        {
+          "date": "2026-05-01",
+          "views": 6801,
+          "value": 63.295
+        },
+        {
+          "date": "2026-06-01",
+          "views": 6556,
+          "value": 66.679
+        },
+        {
+          "date": "2026-07-01",
+          "views": 5878,
+          "value": 59.095
+        },
+        {
+          "date": "2026-08-01",
+          "views": 5593,
+          "value": 59.69
+        }
+      ]
+    },
+    "vi": {
+      "n_points": 24,
+      "metric": "share_per_million",
+      "avg_value": 252.56,
+      "first_period_avg": 291.705,
+      "last_period_avg": 198.832,
+      "growth_pct": -31.8,
+      "slope_per_period": -1.0641,
+      "r_squared": 0.039,
+      "p_value": 0.3543,
+      "anomalies": [],
+      "spike_sensitive": false,
+      "confidence": "low",
+      "confidence_reason": "Тренд статистично незначущий (p=0.354) - шум переважає над сигналом у цих даних.",
+      "series": [
+        {
+          "date": "2024-09-01",
+          "views": 19939,
+          "value": 298.605
+        },
+        {
+          "date": "2024-10-01",
+          "views": 22074,
+          "value": 292.82
+        },
+        {
+          "date": "2024-11-01",
+          "views": 19035,
+          "value": 283.69
+        },
+        {
+          "date": "2024-12-01",
+          "views": 18635,
+          "value": 262.355
+        },
+        {
+          "date": "2025-01-01",
+          "views": 14755,
+          "value": 219.345
+        },
+        {
+          "date": "2025-02-01",
+          "views": 13792,
+          "value": 209.641
+        },
+        {
+          "date": "2025-03-01",
+          "views": 15507,
+          "value": 216.337
+        },
+        {
+          "date": "2025-04-01",
+          "views": 15594,
+          "value": 229.664
+        },
+        {
+          "date": "2025-05-01",
+          "views": 15189,
+          "value": 228.223
+        },
+        {
+          "date": "2025-06-01",
+          "views": 12300,
+          "value": 239.355
+        },
+        {
+          "date": "2025-07-01",
+          "views": 13858,
+          "value": 256.859
+        },
+        {
+          "date": "2025-08-01",
+          "views": 13926,
+          "value": 258.625
+        },
+        {
+          "date": "2025-09-01",
+          "views": 14864,
+          "value": 274.826
+        },
+        {
+          "date": "2025-10-01",
+          "views": 14985,
+          "value": 273.249
+        },
+        {
+          "date": "2025-11-01",
+          "views": 14620,
+          "value": 215.626
+        },
+        {
+          "date": "2025-12-01",
+          "views": 16137,
+          "value": 344.456
+        },
+        {
+          "date": "2026-01-01",
+          "views": 14516,
+          "value": 278.088
+        },
+        {
+          "date": "2026-02-01",
+          "views": 9967,
+          "value": 255.003
+        },
+        {
+          "date": "2026-03-01",
+          "views": 12436,
+          "value": 296.339
+        },
+        {
+          "date": "2026-04-01",
+          "views": 11918,
+          "value": 275.148
+        },
+        {
+          "date": "2026-05-01",
+          "views": 11482,
+          "value": 256.69
+        },
+        {
+          "date": "2026-06-01",
+          "views": 9818,
+          "value": 212.788
+        },
+        {
+          "date": "2026-07-01",
+          "views": 10027,
+          "value": 198.829
+        },
+        {
+          "date": "2026-08-01",
+          "views": 8961,
+          "value": 184.879
+        }
+      ]
+    },
+    "es": {
+      "n_points": 24,
+      "metric": "share_per_million",
+      "avg_value": 50.258,
+      "first_period_avg": 57.531,
+      "last_period_avg": 45.92,
+      "growth_pct": -20.2,
+      "slope_per_period": -0.4907,
+      "r_squared": 0.422,
+      "p_value": 0.0006,
+      "anomalies": [],
+      "spike_sensitive": false,
+      "confidence": "high",
+      "confidence_reason": "Тренд статистично значущий (p=0.001) і пояснює істотну частку варіації (R²=0.42).",
+      "series": [
+        {
+          "date": "2024-09-01",
+          "views": 44673,
+          "value": 59.976
+        },
+        {
+          "date": "2024-10-01",
+          "views": 48499,
+          "value": 59.957
+        },
+        {
+          "date": "2024-11-01",
+          "views": 38330,
+          "value": 52.659
+        },
+        {
+          "date": "2024-12-01",
+          "views": 32281,
+          "value": 48.666
+        },
+        {
+          "date": "2025-01-01",
+          "views": 37793,
+          "value": 49.447
+        },
+        {
+          "date": "2025-02-01",
+          "views": 43029,
+          "value": 62.291
+        },
+        {
+          "date": "2025-03-01",
+          "views": 42713,
+          "value": 57.567
+        },
+        {
+          "date": "2025-04-01",
+          "views": 32410,
+          "value": 49.67
+        },
+        {
+          "date": "2025-05-01",
+          "views": 36031,
+          "value": 54.425
+        },
+        {
+          "date": "2025-06-01",
+          "views": 27892,
+          "value": 46.958
+        },
+        {
+          "date": "2025-07-01",
+          "views": 29773,
+          "value": 49.069
+        },
+        {
+          "date": "2025-08-01",
+          "views": 26130,
+          "value": 43.662
+        },
+        {
+          "date": "2025-09-01",
+          "views": 30033,
+          "value": 51.982
+        },
+        {
+          "date": "2025-10-01",
+          "views": 31624,
+          "value": 52.122
+        },
+        {
+          "date": "2025-11-01",
+          "views": 27226,
+          "value": 46.296
+        },
+        {
+          "date": "2025-12-01",
+          "views": 23240,
+          "value": 45.683
+        },
+        {
+          "date": "2026-01-01",
+          "views": 26184,
+          "value": 43.903
+        },
+        {
+          "date": "2026-02-01",
+          "views": 24604,
+          "value": 45.218
+        },
+        {
+          "date": "2026-03-01",
+          "views": 24649,
+          "value": 47.242
+        },
+        {
+          "date": "2026-04-01",
+          "views": 26954,
+          "value": 52.498
+        },
+        {
+          "date": "2026-05-01",
+          "views": 25543,
+          "value": 49.136
+        },
+        {
+          "date": "2026-06-01",
+          "views": 24304,
+          "value": 46.886
+        },
+        {
+          "date": "2026-07-01",
+          "views": 24804,
+          "value": 46.899
+        },
+        {
+          "date": "2026-08-01",
+          "views": 22378,
+          "value": 43.976
+        }
+      ]
+    },
+    "pt": {
+      "n_points": 24,
+      "metric": "share_per_million",
+      "avg_value": 54.29,
+      "first_period_avg": 65.73,
+      "last_period_avg": 54.253,
+      "growth_pct": -17.5,
+      "slope_per_period": -0.4911,
+      "r_squared": 0.272,
+      "p_value": 0.009,
+      "anomalies": [],
+      "spike_sensitive": false,
+      "confidence": "medium",
+      "confidence_reason": "Тренд імовірний, але не строго значущий (p=0.009); варто перевірити на довшому періоді.",
+      "series": [
+        {
+          "date": "2024-09-01",
+          "views": 15277,
+          "value": 68.314
+        },
+        {
+          "date": "2024-10-01",
+          "views": 15034,
+          "value": 64.306
+        },
+        {
+          "date": "2024-11-01",
+          "views": 14710,
+          "value": 64.57
+        },
+        {
+          "date": "2024-12-01",
+          "views": 12618,
+          "value": 55.577
+        },
+        {
+          "date": "2025-01-01",
+          "views": 12465,
+          "value": 49.568
+        },
+        {
+          "date": "2025-02-01",
+          "views": 12783,
+          "value": 59.969
+        },
+        {
+          "date": "2025-03-01",
+          "views": 15965,
+          "value": 66.707
+        },
+        {
+          "date": "2025-04-01",
+          "views": 11623,
+          "value": 56.062
+        },
+        {
+          "date": "2025-05-01",
+          "views": 10011,
+          "value": 51.295
+        },
+        {
+          "date": "2025-06-01",
+          "views": 9950,
+          "value": 54.023
+        },
+        {
+          "date": "2025-07-01",
+          "views": 8868,
+          "value": 45.804
+        },
+        {
+          "date": "2025-08-01",
+          "views": 9392,
+          "value": 51.045
+        },
+        {
+          "date": "2025-09-01",
+          "views": 9668,
+          "value": 54.209
+        },
+        {
+          "date": "2025-10-01",
+          "views": 9637,
+          "value": 51.436
+        },
+        {
+          "date": "2025-11-01",
+          "views": 9126,
+          "value": 45.106
+        },
+        {
+          "date": "2025-12-01",
+          "views": 7830,
+          "value": 47.654
+        },
+        {
+          "date": "2026-01-01",
+          "views": 8206,
+          "value": 44.137
+        },
+        {
+          "date": "2026-02-01",
+          "views": 8524,
+          "value": 49.327
+        },
+        {
+          "date": "2026-03-01",
+          "views": 9369,
+          "value": 55.313
+        },
+        {
+          "date": "2026-04-01",
+          "views": 8601,
+          "value": 52.916
+        },
+        {
+          "date": "2026-05-01",
+          "views": 9296,
+          "value": 52.87
+        },
+        {
+          "date": "2026-06-01",
+          "views": 9640,
+          "value": 55.366
+        },
+        {
+          "date": "2026-07-01",
+          "views": 9958,
+          "value": 49.096
+        },
+        {
+          "date": "2026-08-01",
+          "views": 10278,
+          "value": 58.297
+        }
+      ]
+    }
+  },
+  "ranking": {
+    "by_growth": [
+      "pl",
+      "pt",
+      "es",
+      "tr",
+      "uk",
+      "vi"
+    ],
+    "by_current_interest": [
+      "vi",
+      "uk",
+      "tr",
+      "pt",
+      "es",
+      "pl"
+    ],
+    "by_confidence": [
+      "uk",
+      "pl",
+      "es",
+      "pt",
+      "tr",
+      "vi"
+    ]
+  },
+  "caveats": [
+    "Довіра до тренду низька для: tr, vi - див. колонку «Довіра» в таблиці; не варто робити на цьому категоричні висновки."
+  ],
+  "api_calls": {
+    "requests_made": 0,
+    "cache_hits": 14
+  },
+  "output_files": {
+    "chart_png": "reports/haiku-english-learning-comparison.png",
+    "report_pdf": "reports/haiku-english-learning-comparison.pdf",
+    "report_pages": 2,
+    "analysis_json": "reports/haiku-english-learning-comparison.json"
+  }
+}

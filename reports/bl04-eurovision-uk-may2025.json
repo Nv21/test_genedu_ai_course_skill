@@ -1,0 +1,274 @@
+{
+  "topic_query": null,
+  "date_range": {
+    "start": "2025-05-01",
+    "end": "2025-05-31",
+    "granularity": "daily",
+    "mode": "explicit"
+  },
+  "metric": "views",
+  "resolved_articles": {
+    "uk": {
+      "lang": "uk",
+      "title": "Євробачення",
+      "method": "manual",
+      "confidence": "high",
+      "wikidata_qid": null,
+      "candidates": [],
+      "note": "Title supplied explicitly by the caller."
+    }
+  },
+  "trends": {
+    "uk": {
+      "n_points": 31,
+      "metric": "views",
+      "avg_value": 8.355,
+      "first_period_avg": 2.333,
+      "last_period_avg": 3.667,
+      "growth_pct": 57.1,
+      "slope_per_period": 0.1097,
+      "r_squared": 0.009,
+      "p_value": 0.6027,
+      "anomalies": [
+        {
+          "date": "2025-05-13",
+          "value": 16.0,
+          "z_score": 4.27
+        },
+        {
+          "date": "2025-05-14",
+          "value": 15.0,
+          "z_score": 3.88
+        },
+        {
+          "date": "2025-05-15",
+          "value": 17.0,
+          "z_score": 4.55
+        },
+        {
+          "date": "2025-05-17",
+          "value": 48.0,
+          "z_score": 15.53
+        },
+        {
+          "date": "2025-05-18",
+          "value": 36.0,
+          "z_score": 11.21
+        },
+        {
+          "date": "2025-05-19",
+          "value": 15.0,
+          "z_score": 3.68
+        }
+      ],
+      "spike_sensitive": false,
+      "confidence": "low",
+      "confidence_reason": "Тренд статистично незначущий (p=0.603) - шум переважає над сигналом у цих даних.",
+      "series": [
+        {
+          "date": "2025-05-01",
+          "views": 1,
+          "value": 1.0
+        },
+        {
+          "date": "2025-05-02",
+          "views": 2,
+          "value": 2.0
+        },
+        {
+          "date": "2025-05-03",
+          "views": 4,
+          "value": 4.0
+        },
+        {
+          "date": "2025-05-04",
+          "views": 2,
+          "value": 2.0
+        },
+        {
+          "date": "2025-05-05",
+          "views": 5,
+          "value": 5.0
+        },
+        {
+          "date": "2025-05-06",
+          "views": 2,
+          "value": 2.0
+        },
+        {
+          "date": "2025-05-07",
+          "views": 5,
+          "value": 5.0
+        },
+        {
+          "date": "2025-05-08",
+          "views": 3,
+          "value": 3.0
+        },
+        {
+          "date": "2025-05-09",
+          "views": 1,
+          "value": 1.0
+        },
+        {
+          "date": "2025-05-10",
+          "views": 4,
+          "value": 4.0
+        },
+        {
+          "date": "2025-05-11",
+          "views": 8,
+          "value": 8.0
+        },
+        {
+          "date": "2025-05-12",
+          "views": 1,
+          "value": 1.0
+        },
+        {
+          "date": "2025-05-13",
+          "views": 16,
+          "value": 16.0
+        },
+        {
+          "date": "2025-05-14",
+          "views": 15,
+          "value": 15.0
+        },
+        {
+          "date": "2025-05-15",
+          "views": 17,
+          "value": 17.0
+        },
+        {
+          "date": "2025-05-16",
+          "views": 13,
+          "value": 13.0
+        },
+        {
+          "date": "2025-05-17",
+          "views": 48,
+          "value": 48.0
+        },
+        {
+          "date": "2025-05-18",
+          "views": 36,
+          "value": 36.0
+        },
+        {
+          "date": "2025-05-19",
+          "views": 15,
+          "value": 15.0
+        },
+        {
+          "date": "2025-05-20",
+          "views": 8,
+          "value": 8.0
+        },
+        {
+          "date": "2025-05-21",
+          "views": 2,
+          "value": 2.0
+        },
+        {
+          "date": "2025-05-22",
+          "views": 10,
+          "value": 10.0
+        },
+        {
+          "date": "2025-05-23",
+          "views": 4,
+          "value": 4.0
+        },
+        {
+          "date": "2025-05-24",
+          "views": 8,
+          "value": 8.0
+        },
+        {
+          "date": "2025-05-25",
+          "views": 5,
+          "value": 5.0
+        },
+        {
+          "date": "2025-05-26",
+          "views": 5,
+          "value": 5.0
+        },
+        {
+          "date": "2025-05-27",
+          "views": 4,
+          "value": 4.0
+        },
+        {
+          "date": "2025-05-28",
+          "views": 4,
+          "value": 4.0
+        },
+        {
+          "date": "2025-05-29",
+          "views": 1,
+          "value": 1.0
+        },
+        {
+          "date": "2025-05-30",
+          "views": 4,
+          "value": 4.0
+        },
+        {
+          "date": "2025-05-31",
+          "views": 6,
+          "value": 6.0
+        }
+      ],
+      "yoy_growth_pct": null,
+      "seasonal_months": [],
+      "seasonal_strength": null,
+      "trend_strength": null,
+      "trend_change_pct": null,
+      "trend_change_12m_pct": null,
+      "seasonal_peak_month": null,
+      "seasonal_amplitude": null,
+      "deseasonalized": false,
+      "adjusted_growth_pct": null,
+      "trend_series": []
+    }
+  },
+  "horizons": null,
+  "horizon_summary": null,
+  "ranking": {
+    "by_growth": [
+      "uk"
+    ],
+    "by_current_interest": [
+      "uk"
+    ],
+    "by_confidence": [
+      "uk"
+    ],
+    "explore_next": [
+      {
+        "lang": "uk",
+        "tag": "unclear",
+        "level": 8.355,
+        "trend_growth_pct": 57.1,
+        "recent_12m_pct": null,
+        "confidence": "low"
+      }
+    ]
+  },
+  "recommendation_check": null,
+  "caveats": [
+    "Довіра до тренду низька для: uk - див. колонку «Довіра» в таблиці; не варто робити на цьому категоричні висновки."
+  ],
+  "api_calls": {
+    "requests_made": 1,
+    "cache_hits": 0
+  },
+  "output_files": {
+    "chart_png": "reports/bl04-eurovision-uk-may2025.png",
+    "report_pdf": "reports/bl04-eurovision-uk-may2025.pdf",
+    "report_pages": 1,
+    "analysis_json": "reports/bl04-eurovision-uk-may2025.json"
+  }
+}

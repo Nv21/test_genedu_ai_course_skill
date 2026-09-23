@@ -1,0 +1,528 @@
+{
+  "results": {
+    "uk": {
+      "target": "uk",
+      "window": {
+        "recent": [
+          "2026-06",
+          "2026-07",
+          "2026-08"
+        ],
+        "year_ago": [
+          "2025-06",
+          "2025-07",
+          "2025-08"
+        ]
+      },
+      "rising": [
+        {
+          "project": "uk.wikipedia",
+          "article": "Ерлінг Голанн",
+          "recent_monthly_avg": 23367,
+          "year_ago_monthly_avg": 1097,
+          "yoy_growth_pct": 2030.7,
+          "recent_months": {
+            "2026-06": 9736,
+            "2026-07": 54778,
+            "2026-08": 5586
+          },
+          "trend_confidence": "high",
+          "trend_confidence_reason": "Після вилучення сезонності: тренд статистично значущий (p=0.000) і пояснює істотну частку варіації (R²=0.88).",
+          "spike_sensitive": false,
+          "anomalies": [
+            "2024-10"
+          ],
+          "desktop_share": 0.141
+        },
+        {
+          "project": "uk.wikipedia",
+          "article": "Fire Point",
+          "recent_monthly_avg": 14241,
+          "year_ago_monthly_avg": 809,
+          "yoy_growth_pct": 1660.4,
+          "recent_months": {
+            "2026-06": 17900,
+            "2026-07": 16358,
+            "2026-08": 8466
+          },
+          "trend_confidence": "high",
+          "trend_confidence_reason": "Тренд статистично значущий (p=0.035) і пояснює істотну частку варіації (R²=0.35).",
+          "spike_sensitive": false,
+          "anomalies": [],
+          "desktop_share": 0.272
+        },
+        {
+          "project": "uk.wikipedia",
+          "article": "Федоров Михайло Альбертович",
+          "recent_monthly_avg": 89172,
+          "year_ago_monthly_avg": 5190,
+          "yoy_growth_pct": 1618.0,
+          "recent_months": {
+            "2026-06": 27099,
+            "2026-07": 208066,
+            "2026-08": 32352
+          },
+          "trend_confidence": "high",
+          "trend_confidence_reason": "Після вилучення сезонності: тренд статистично значущий (p=0.000) і пояснює істотну частку варіації (R²=0.87).",
+          "spike_sensitive": false,
+          "anomalies": [],
+          "desktop_share": 0.2
+        },
+        {
+          "project": "uk.wikipedia",
+          "article": "Xnxx.com",
+          "recent_monthly_avg": 46699,
+          "year_ago_monthly_avg": 2803,
+          "yoy_growth_pct": 1565.8,
+          "recent_months": {
+            "2026-06": 113736,
+            "2026-07": 15222,
+            "2026-08": 11139
+          },
+          "trend_confidence": "high",
+          "trend_confidence_reason": "Після вилучення сезонності: тренд статистично значущий (p=0.000) і пояснює істотну частку варіації (R²=1.00).",
+          "spike_sensitive": false,
+          "anomalies": [],
+          "desktop_share": 0.04
+        },
+        {
+          "project": "uk.wikipedia",
+          "article": "Кіллхаус",
+          "recent_monthly_avg": 14401,
+          "year_ago_monthly_avg": 928,
+          "yoy_growth_pct": 1451.8,
+          "recent_months": {
+            "2026-06": 15737,
+            "2026-07": 18970,
+            "2026-08": 8495
+          },
+          "trend_confidence": "high",
+          "trend_confidence_reason": "Тренд статистично значущий (p=0.003) і пояснює істотну частку варіації (R²=0.36).",
+          "spike_sensitive": false,
+          "anomalies": [
+            "2026-04",
+            "2026-05"
+          ],
+          "desktop_share": 0.178
+        },
+        {
+          "project": "uk.wikipedia",
+          "article": "Драпатий Михайло Васильович",
+          "recent_monthly_avg": 147578,
+          "year_ago_monthly_avg": 11158,
+          "yoy_growth_pct": 1222.7,
+          "recent_months": {
+            "2026-06": 3296,
+            "2026-07": 417497,
+            "2026-08": 21940
+          },
+          "trend_confidence": "high",
+          "trend_confidence_reason": "Після вилучення сезонності: тренд статистично значущий (p=0.000) і пояснює істотну частку варіації (R²=1.00).",
+          "spike_sensitive": false,
+          "anomalies": [],
+          "desktop_share": 0.232
+        },
+        {
+          "project": "uk.wikipedia",
+          "article": "Том Голланд",
+          "recent_monthly_avg": 12685,
+          "year_ago_monthly_avg": 1783,
+          "yoy_growth_pct": 611.3,
+          "recent_months": {
+            "2026-06": 4258,
+            "2026-07": 12872,
+            "2026-08": 20924
+          },
+          "trend_confidence": "high",
+          "trend_confidence_reason": "Після вилучення сезонності: тренд статистично значущий (p=0.000) і пояснює істотну частку варіації (R²=0.99).",
+          "spike_sensitive": false,
+          "anomalies": [],
+          "desktop_share": 0.126
+        },
+        {
+          "project": "uk.wikipedia",
+          "article": "Майкл Джексон",
+          "recent_monthly_avg": 24791,
+          "year_ago_monthly_avg": 3656,
+          "yoy_growth_pct": 578.2,
+          "recent_months": {
+            "2026-06": 40295,
+            "2026-07": 23148,
+            "2026-08": 10931
+          },
+          "trend_confidence": "medium",
+          "trend_confidence_reason": "Після вилучення сезонності: напрям тренду значущий (p=0.007), але R²=0.28 - багато шуму чи сезонності, тож величина зміни ненадійна.",
+          "spike_sensitive": false,
+          "anomalies": [
+            "2024-09",
+            "2026-08"
+          ],
+          "desktop_share": 0.113
+        },
+        {
+          "project": "uk.wikipedia",
+          "article": "Коновалець Євген Михайлович",
+          "recent_monthly_avg": 29002,
+          "year_ago_monthly_avg": 5127,
+          "yoy_growth_pct": 465.7,
+          "recent_months": {
+            "2026-06": 11968,
+            "2026-07": 5966,
+            "2026-08": 69071
+          },
+          "trend_confidence": "high",
+          "trend_confidence_reason": "Після вилучення сезонності: тренд статистично значущий (p=0.000) і пояснює істотну частку варіації (R²=1.00).",
+          "spike_sensitive": false,
+          "anomalies": [],
+          "desktop_share": 0.176
+        },
+        {
+          "project": "uk.wikipedia",
+          "article": "Шакіра",
+          "recent_monthly_avg": 11568,
+          "year_ago_monthly_avg": 2133,
+          "yoy_growth_pct": 442.3,
+          "recent_months": {
+            "2026-06": 9236,
+            "2026-07": 20848,
+            "2026-08": 4621
+          },
+          "trend_confidence": "high",
+          "trend_confidence_reason": "Після вилучення сезонності: тренд статистично значущий (p=0.000) і пояснює істотну частку варіації (R²=0.79).",
+          "spike_sensitive": false,
+          "anomalies": [
+            "2024-09",
+            "2026-07",
+            "2026-08"
+          ],
+          "desktop_share": 0.123
+        }
+      ],
+      "news_spikes": [
+        {
+          "project": "uk.wikipedia",
+          "article": "Бандероль (БПЛА)",
+          "recent_monthly_avg": 33201,
+          "year_ago_monthly_avg": 1325,
+          "yoy_growth_pct": 2405.7,
+          "recent_months": {
+            "2026-06": 13737,
+            "2026-07": 32347,
+            "2026-08": 53518
+          },
+          "trend_confidence": "low",
+          "trend_confidence_reason": "Напрям або сила тренду суттєво змінюються після виключення аномальних сплесків - схоже на разовий вплив (новина, подія), а не стійку тенденцію.",
+          "spike_sensitive": true,
+          "anomalies": [
+            "2026-08"
+          ],
+          "desktop_share": 0.155
+        },
+        {
+          "project": "uk.wikipedia",
+          "article": "Людина-павук: Абсолютно новий день",
+          "recent_monthly_avg": 15153,
+          "year_ago_monthly_avg": 1054,
+          "yoy_growth_pct": 1337.6,
+          "recent_months": {
+            "2026-06": 3265,
+            "2026-07": 11730,
+            "2026-08": 30463
+          },
+          "trend_confidence": "low",
+          "trend_confidence_reason": "Напрям або сила тренду суттєво змінюються після виключення аномальних сплесків - схоже на разовий вплив (новина, подія), а не стійку тенденцію.",
+          "spike_sensitive": true,
+          "anomalies": [
+            "2026-08"
+          ],
+          "desktop_share": 0.175
+        },
+        {
+          "project": "uk.wikipedia",
+          "article": "Зендея",
+          "recent_monthly_avg": 15580,
+          "year_ago_monthly_avg": 1771,
+          "yoy_growth_pct": 779.6,
+          "recent_months": {
+            "2026-06": 8583,
+            "2026-07": 16169,
+            "2026-08": 21989
+          },
+          "trend_confidence": "low",
+          "trend_confidence_reason": "Після вилучення сезонності: напрям або сила тренду суттєво змінюються після виключення аномальних сплесків - схоже на разовий вплив (новина, подія), а не стійку тенденцію.",
+          "spike_sensitive": true,
+          "anomalies": [
+            "2026-08"
+          ],
+          "desktop_share": 0.12
+        },
+        {
+          "project": "uk.wikipedia",
+          "article": "Костюк Марта Олегівна",
+          "recent_monthly_avg": 13246,
+          "year_ago_monthly_avg": 2344,
+          "yoy_growth_pct": 465.0,
+          "recent_months": {
+            "2026-06": 19729,
+            "2026-07": 15100,
+            "2026-08": 4909
+          },
+          "trend_confidence": "low",
+          "trend_confidence_reason": "Після вилучення сезонності: напрям або сила тренду суттєво змінюються після виключення аномальних сплесків - схоже на разовий вплив (новина, подія), а не стійку тенденцію.",
+          "spike_sensitive": true,
+          "anomalies": [
+            "2026-06"
+          ],
+          "desktop_share": 0.159
+        },
+        {
+          "project": "uk.wikipedia",
+          "article": "Циркон (ракета)",
+          "recent_monthly_avg": 27023,
+          "year_ago_monthly_avg": 4982,
+          "yoy_growth_pct": 442.4,
+          "recent_months": {
+            "2026-06": 29715,
+            "2026-07": 35027,
+            "2026-08": 16326
+          },
+          "trend_confidence": "low",
+          "trend_confidence_reason": "Після вилучення сезонності: напрям або сила тренду суттєво змінюються після виключення аномальних сплесків - схоже на разовий вплив (новина, подія), а не стійку тенденцію.",
+          "spike_sensitive": true,
+          "anomalies": [
+            "2024-11",
+            "2026-07"
+          ],
+          "desktop_share": 0.098
+        },
+        {
+          "project": "uk.wikipedia",
+          "article": "Сирський Олександр Станіславович",
+          "recent_monthly_avg": 48995,
+          "year_ago_monthly_avg": 11446,
+          "yoy_growth_pct": 328.1,
+          "recent_months": {
+            "2026-06": 8826,
+            "2026-07": 128796,
+            "2026-08": 9362
+          },
+          "trend_confidence": "low",
+          "trend_confidence_reason": "Після вилучення сезонності: напрям або сила тренду суттєво змінюються після виключення аномальних сплесків - схоже на разовий вплив (новина, подія), а не стійку тенденцію.",
+          "spike_sensitive": true,
+          "anomalies": [
+            "2024-09",
+            "2025-01"
+          ],
+          "desktop_share": 0.251
+        },
+        {
+          "project": "uk.wikipedia",
+          "article": "Ззовні (телесеріал)",
+          "recent_monthly_avg": 8382,
+          "year_ago_monthly_avg": 2929,
+          "yoy_growth_pct": 186.2,
+          "recent_months": {
+            "2026-06": 12937,
+            "2026-07": 8611,
+            "2026-08": 3597
+          },
+          "trend_confidence": "low",
+          "trend_confidence_reason": "Напрям або сила тренду суттєво змінюються після виключення аномальних сплесків - схоже на разовий вплив (новина, подія), а не стійку тенденцію.",
+          "spike_sensitive": true,
+          "anomalies": [
+            "2024-10",
+            "2024-11"
+          ],
+          "desktop_share": 0.215
+        },
+        {
+          "project": "uk.wikipedia",
+          "article": "155-та окрема механізована бригада (Україна)",
+          "recent_monthly_avg": 13711,
+          "year_ago_monthly_avg": 6087,
+          "yoy_growth_pct": 125.3,
+          "recent_months": {
+            "2026-06": 3446,
+            "2026-07": 33651,
+            "2026-08": 4036
+          },
+          "trend_confidence": "low",
+          "trend_confidence_reason": "Напрям або сила тренду суттєво змінюються після виключення аномальних сплесків - схоже на разовий вплив (новина, подія), а не стійку тенденцію.",
+          "spike_sensitive": true,
+          "anomalies": [
+            "2024-12",
+            "2025-01",
+            "2026-07"
+          ],
+          "desktop_share": 0.246
+        }
+      ],
+      "new_topics": [
+        {
+          "project": "uk.wikipedia",
+          "article": "Хмара Євгеній Леонідович",
+          "recent_monthly_avg": 78033,
+          "year_ago_monthly_avg": 112,
+          "yoy_growth_pct": 69572.3,
+          "recent_months": {
+            "2026-06": 5627,
+            "2026-07": 155856,
+            "2026-08": 72616
+          },
+          "trend_confidence": "low",
+          "trend_confidence_reason": "Напрям або сила тренду суттєво змінюються після виключення аномальних сплесків - схоже на разовий вплив (новина, подія), а не стійку тенденцію.",
+          "spike_sensitive": true,
+          "anomalies": [
+            "2026-07"
+          ],
+          "note": "Рік тому статті майже не читали (або її не існувало) - відсоток зростання неінформативний.",
+          "desktop_share": 0.189
+        },
+        {
+          "project": "uk.wikipedia",
+          "article": "425-й окремий штурмовий полк «Скеля»",
+          "recent_monthly_avg": 29063,
+          "year_ago_monthly_avg": 0,
+          "yoy_growth_pct": null,
+          "recent_months": {
+            "2026-06": 35511,
+            "2026-07": 38249,
+            "2026-08": 13430
+          },
+          "trend_confidence": "medium",
+          "trend_confidence_reason": "Тренд імовірний, але не строго значущий (p=0.088); варто перевірити на довшому періоді.",
+          "spike_sensitive": false,
+          "anomalies": [],
+          "note": "Рік тому статті майже не читали (або її не існувало) - відсоток зростання неінформативний.",
+          "desktop_share": 0.261
+        },
+        {
+          "project": "uk.wikipedia",
+          "article": "Єрмолаєв Вадим Володимирович",
+          "recent_monthly_avg": 24412,
+          "year_ago_monthly_avg": 366,
+          "yoy_growth_pct": 6570.0,
+          "recent_months": {
+            "2026-06": 43745,
+            "2026-07": 25253,
+            "2026-08": 4239
+          },
+          "trend_confidence": "high",
+          "trend_confidence_reason": "Після вилучення сезонності: тренд статистично значущий (p=0.000) і пояснює істотну частку варіації (R²=0.58).",
+          "spike_sensitive": false,
+          "anomalies": [
+            "2024-09",
+            "2026-07",
+            "2026-08"
+          ],
+          "note": "Рік тому статті майже не читали (або її не існувало) - відсоток зростання неінформативний.",
+          "desktop_share": 0.315
+        },
+        {
+          "project": "uk.wikipedia",
+          "article": "P1-Sun",
+          "recent_monthly_avg": 23728,
+          "year_ago_monthly_avg": 0,
+          "yoy_growth_pct": null,
+          "recent_months": {
+            "2026-06": 29025,
+            "2026-07": 23549,
+            "2026-08": 18609
+          },
+          "trend_confidence": "low",
+          "trend_confidence_reason": "Тренд статистично незначущий (p=0.664) - шум переважає над сигналом у цих даних.",
+          "spike_sensitive": false,
+          "anomalies": [
+            "2026-02",
+            "2026-03"
+          ],
+          "note": "Рік тому статті майже не читали (або її не існувало) - відсоток зростання неінформативний.",
+          "desktop_share": 0.179
+        },
+        {
+          "project": "uk.wikipedia",
+          "article": "Штілерман Денис Леонідович",
+          "recent_monthly_avg": 20838,
+          "year_ago_monthly_avg": 0,
+          "yoy_growth_pct": null,
+          "recent_months": {
+            "2026-06": 21799,
+            "2026-07": 28646,
+            "2026-08": 12068
+          },
+          "trend_confidence": "low",
+          "trend_confidence_reason": "Замало точок даних (5 < 6) для надійної оцінки тренду.",
+          "spike_sensitive": false,
+          "anomalies": [],
+          "note": "Рік тому статті майже не читали (або її не існувало) - відсоток зростання неінформативний.",
+          "desktop_share": 0.241
+        },
+        {
+          "project": "uk.wikipedia",
+          "article": "Залаштунки (фільм)",
+          "recent_monthly_avg": 11096,
+          "year_ago_monthly_avg": 0,
+          "yoy_growth_pct": null,
+          "recent_months": {
+            "2026-06": 16676,
+            "2026-07": 11418,
+            "2026-08": 5193
+          },
+          "trend_confidence": "low",
+          "trend_confidence_reason": "Замало точок даних (5 < 6) для надійної оцінки тренду.",
+          "spike_sensitive": false,
+          "anomalies": [],
+          "note": "Рік тому статті майже не читали (або її не існувало) - відсоток зростання неінформативний.",
+          "desktop_share": 0.233
+        },
+        {
+          "project": "uk.wikipedia",
+          "article": "День істини",
+          "recent_monthly_avg": 10821,
+          "year_ago_monthly_avg": 0,
+          "yoy_growth_pct": null,
+          "recent_months": {
+            "2026-06": 16744,
+            "2026-07": 9242,
+            "2026-08": 6477
+          },
+          "trend_confidence": "high",
+          "trend_confidence_reason": "Тренд статистично значущий (p=0.047) і пояснює істотну частку варіації (R²=0.45).",
+          "spike_sensitive": false,
+          "anomalies": [],
+          "note": "Рік тому статті майже не читали (або її не існувало) - відсоток зростання неінформативний.",
+          "desktop_share": 0.145
+        },
+        {
+          "project": "uk.wikipedia",
+          "article": "Я тебе відшукаю (мінісеріал)",
+          "recent_monthly_avg": 9409,
+          "year_ago_monthly_avg": 0,
+          "yoy_growth_pct": null,
+          "recent_months": {
+            "2026-06": 11468,
+            "2026-07": 12800,
+            "2026-08": 3959
+          },
+          "trend_confidence": "low",
+          "trend_confidence_reason": "Замало точок даних (3 < 6) для надійної оцінки тренду.",
+          "spike_sensitive": false,
+          "anomalies": [],
+          "note": "Рік тому статті майже не читали (або її не існувало) - відсоток зростання неінформативний.",
+          "desktop_share": 0.145
+        }
+      ],
+      "suspected_bots": [],
+      "n_candidates": 503,
+      "n_verified": 40,
+      "caveats": [
+        "Порівняння рік до року: 2026-06..2026-08 проти 2025-06..2025-08; кандидати - статті з топ-1000 у кожному з 3 останніх місяців.",
+        "Відкинуто 13 статей з роком у назві (щорічні події/списки)."
+      ]
+    }
+  },
+  "api_calls": {
+    "requests_made": 11,
+    "cache_hits": 62
+  }
+}

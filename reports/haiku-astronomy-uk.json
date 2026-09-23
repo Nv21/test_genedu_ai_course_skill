@@ -1,0 +1,257 @@
+{
+  "topic_query": "astronomy",
+  "date_range": {
+    "start": "2023-09-01",
+    "end": "2026-09-30",
+    "granularity": "monthly"
+  },
+  "metric": "views",
+  "resolved_articles": {
+    "uk": {
+      "lang": "uk",
+      "title": "Астрономія",
+      "method": "wikidata",
+      "confidence": "high",
+      "wikidata_qid": "Q333",
+      "candidates": [],
+      "note": "Matched via Wikidata sitelink - same concept across languages."
+    }
+  },
+  "trends": {
+    "uk": {
+      "n_points": 37,
+      "metric": "views",
+      "avg_value": 1627.324,
+      "first_period_avg": 5619.333,
+      "last_period_avg": 502.333,
+      "growth_pct": -91.1,
+      "slope_per_period": -116.9983,
+      "r_squared": 0.482,
+      "p_value": 0.0,
+      "anomalies": [
+        {
+          "date": "2023-09-01",
+          "value": 9857.0,
+          "z_score": 8.98
+        },
+        {
+          "date": "2024-09-01",
+          "value": 4687.0,
+          "z_score": 3.58
+        }
+      ],
+      "spike_sensitive": false,
+      "confidence": "high",
+      "confidence_reason": "Тренд статистично значущий (p=0.000) і пояснює істотну частку варіації (R²=0.48).",
+      "series": [
+        {
+          "date": "2023-09-01",
+          "views": 9857,
+          "value": 9857.0
+        },
+        {
+          "date": "2023-10-01",
+          "views": 3611,
+          "value": 3611.0
+        },
+        {
+          "date": "2023-11-01",
+          "views": 3390,
+          "value": 3390.0
+        },
+        {
+          "date": "2023-12-01",
+          "views": 3576,
+          "value": 3576.0
+        },
+        {
+          "date": "2024-01-01",
+          "views": 3700,
+          "value": 3700.0
+        },
+        {
+          "date": "2024-02-01",
+          "views": 3206,
+          "value": 3206.0
+        },
+        {
+          "date": "2024-03-01",
+          "views": 2140,
+          "value": 2140.0
+        },
+        {
+          "date": "2024-04-01",
+          "views": 2216,
+          "value": 2216.0
+        },
+        {
+          "date": "2024-05-01",
+          "views": 2018,
+          "value": 2018.0
+        },
+        {
+          "date": "2024-06-01",
+          "views": 959,
+          "value": 959.0
+        },
+        {
+          "date": "2024-07-01",
+          "views": 637,
+          "value": 637.0
+        },
+        {
+          "date": "2024-08-01",
+          "views": 754,
+          "value": 754.0
+        },
+        {
+          "date": "2024-09-01",
+          "views": 4687,
+          "value": 4687.0
+        },
+        {
+          "date": "2024-10-01",
+          "views": 1776,
+          "value": 1776.0
+        },
+        {
+          "date": "2024-11-01",
+          "views": 1746,
+          "value": 1746.0
+        },
+        {
+          "date": "2024-12-01",
+          "views": 1634,
+          "value": 1634.0
+        },
+        {
+          "date": "2025-01-01",
+          "views": 1558,
+          "value": 1558.0
+        },
+        {
+          "date": "2025-02-01",
+          "views": 1296,
+          "value": 1296.0
+        },
+        {
+          "date": "2025-03-01",
+          "views": 1068,
+          "value": 1068.0
+        },
+        {
+          "date": "2025-04-01",
+          "views": 1019,
+          "value": 1019.0
+        },
+        {
+          "date": "2025-05-01",
+          "views": 789,
+          "value": 789.0
+        },
+        {
+          "date": "2025-06-01",
+          "views": 361,
+          "value": 361.0
+        },
+        {
+          "date": "2025-07-01",
+          "views": 305,
+          "value": 305.0
+        },
+        {
+          "date": "2025-08-01",
+          "views": 375,
+          "value": 375.0
+        },
+        {
+          "date": "2025-09-01",
+          "views": 1642,
+          "value": 1642.0
+        },
+        {
+          "date": "2025-10-01",
+          "views": 635,
+          "value": 635.0
+        },
+        {
+          "date": "2025-11-01",
+          "views": 557,
+          "value": 557.0
+        },
+        {
+          "date": "2025-12-01",
+          "views": 622,
+          "value": 622.0
+        },
+        {
+          "date": "2026-01-01",
+          "views": 449,
+          "value": 449.0
+        },
+        {
+          "date": "2026-02-01",
+          "views": 425,
+          "value": 425.0
+        },
+        {
+          "date": "2026-03-01",
+          "views": 410,
+          "value": 410.0
+        },
+        {
+          "date": "2026-04-01",
+          "views": 405,
+          "value": 405.0
+        },
+        {
+          "date": "2026-05-01",
+          "views": 600,
+          "value": 600.0
+        },
+        {
+          "date": "2026-06-01",
+          "views": 281,
+          "value": 281.0
+        },
+        {
+          "date": "2026-07-01",
+          "views": 322,
+          "value": 322.0
+        },
+        {
+          "date": "2026-08-01",
+          "views": 360,
+          "value": 360.0
+        },
+        {
+          "date": "2026-09-01",
+          "views": 825,
+          "value": 825.0
+        }
+      ]
+    }
+  },
+  "ranking": {
+    "by_growth": [
+      "uk"
+    ],
+    "by_current_interest": [
+      "uk"
+    ],
+    "by_confidence": [
+      "uk"
+    ]
+  },
+  "caveats": [],
+  "api_calls": {
+    "requests_made": 3,
+    "cache_hits": 0
+  },
+  "output_files": {
+    "chart_png": "reports/haiku-astronomy-uk.png",
+    "report_pdf": "reports/haiku-astronomy-uk.pdf",
+    "report_pages": 1,
+    "analysis_json": "reports/haiku-astronomy-uk.json"
+  }
+}

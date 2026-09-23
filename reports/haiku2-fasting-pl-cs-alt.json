@@ -1,0 +1,108 @@
+{
+  "topic_query": "przerywany post",
+  "date_range": {
+    "start": "2024-09-01",
+    "end": "2026-08-31",
+    "granularity": "monthly"
+  },
+  "metric": "share",
+  "resolved_articles": {
+    "pl": {
+      "lang": "pl",
+      "title": null,
+      "method": "search_fallback",
+      "confidence": "none",
+      "wikidata_qid": null,
+      "candidates": [
+        {
+          "title": "Charlie Kirk",
+          "snippet": "Course Toward Free Markets and Limited Government for Future Generations. Post Hill Press. ISBN 978-1-68261-247-7. Kirk, Charlie (2018). Campus Battlefield:"
+        },
+        {
+          "title": "Aborcja",
+          "snippet": "Cytat: „Access to legal, safe and comprehensive abortion care, including post-abortion care, is essential for the attainment of the highest possible level"
+        },
+        {
+          "title": "Lot United Airlines 93",
+          "snippet": "samoloty wyposażone były jedynie w ćwiczebną amunicję strzelecką, zgodnie zaś z post-zimnowojenną praktyką, ze względów bezpieczeństwa bojowe pociski rakietowe"
+        },
+        {
+          "title": "Strefa 51",
+          "snippet": "acknowledges existence of Area 51, but not the UFOs. [w:] The Washington Post [on-line]. washingtonpost.com, 16 sierpnia 2013. [dostęp 2022-02-06]. (ang"
+        },
+        {
+          "title": "Platforma Obywatelska",
+          "snippet": "Szczerbiak: Power without Love? Patterns of Party Politics in Post-1989 Poland. W: Post-Communist EU Member States: Parties and Party Systems. Susanne"
+        }
+      ],
+      "note": "No Wikidata sitelink, and the top full-text search hit ('Charlie Kirk') shares no words with the topic - likely a false match (query may need to be in pl's language, or this wiki may not cover the topic). Not reporting a guess; pass --articles pl:<title> if you know the correct one."
+    },
+    "cs": {
+      "lang": "cs",
+      "title": null,
+      "method": "unresolved",
+      "confidence": "none",
+      "wikidata_qid": null,
+      "candidates": [],
+      "note": "No Wikidata sitelink and no search results for 'przerywany post' on cs.wikipedia. The topic may not have (or may not yet have) an article in this language edition."
+    }
+  },
+  "trends": {
+    "pl": {
+      "n_points": 0,
+      "metric": "share",
+      "avg_value": null,
+      "first_period_avg": null,
+      "last_period_avg": null,
+      "growth_pct": null,
+      "slope_per_period": null,
+      "r_squared": null,
+      "p_value": null,
+      "anomalies": [],
+      "spike_sensitive": false,
+      "confidence": "none",
+      "confidence_reason": "Немає даних (API не повернув перегляди для цього періоду/статті).",
+      "series": [],
+      "yoy_growth_pct": null,
+      "seasonal_months": []
+    },
+    "cs": {
+      "n_points": 0,
+      "metric": "share",
+      "avg_value": null,
+      "first_period_avg": null,
+      "last_period_avg": null,
+      "growth_pct": null,
+      "slope_per_period": null,
+      "r_squared": null,
+      "p_value": null,
+      "anomalies": [],
+      "spike_sensitive": false,
+      "confidence": "none",
+      "confidence_reason": "Немає даних (API не повернув перегляди для цього періоду/статті).",
+      "series": [],
+      "yoy_growth_pct": null,
+      "seasonal_months": []
+    }
+  },
+  "ranking": {
+    "by_growth": [],
+    "by_current_interest": [],
+    "by_confidence": [],
+    "explore_next": []
+  },
+  "recommendation_check": null,
+  "caveats": [
+    "Кінець періоду скориговано до 2026-08-31: дані за поточний місяць ще неповні."
+  ],
+  "api_calls": {
+    "requests_made": 3,
+    "cache_hits": 0
+  },
+  "output_files": {
+    "chart_png": "reports/haiku2-fasting-pl-cs-alt.png",
+    "report_pdf": "reports/haiku2-fasting-pl-cs-alt.pdf",
+    "report_pages": 1,
+    "analysis_json": "reports/haiku2-fasting-pl-cs-alt.json"
+  }
+}

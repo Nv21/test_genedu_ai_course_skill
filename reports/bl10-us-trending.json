@@ -1,0 +1,132 @@
+{
+  "results": {
+    "US": {
+      "target": "US",
+      "window": {
+        "recent": [
+          "2026-06",
+          "2026-07",
+          "2026-08"
+        ],
+        "year_ago": [
+          "2025-06",
+          "2025-07",
+          "2025-08"
+        ]
+      },
+      "rising": [
+        {
+          "project": "en.wikipedia",
+          "article": "Inde Navarrette",
+          "recent_monthly_avg": 1608735,
+          "year_ago_monthly_avg": 1394,
+          "yoy_growth_pct": 115331.8,
+          "recent_months": {
+            "2026-06": 1777586,
+            "2026-07": 1683856,
+            "2026-08": 1364763
+          },
+          "trend_confidence": "high",
+          "trend_confidence_reason": "Тренд статистично значущий (p=0.001) і пояснює істотну частку варіації (R²=0.62).",
+          "spike_sensitive": false,
+          "anomalies": [],
+          "desktop_share": 0.197
+        },
+        {
+          "project": "en.wikipedia",
+          "article": "Off Campus",
+          "recent_monthly_avg": 701755,
+          "year_ago_monthly_avg": 2801,
+          "yoy_growth_pct": 24950.7,
+          "recent_months": {
+            "2026-06": 1383876,
+            "2026-07": 444334,
+            "2026-08": 277055
+          },
+          "trend_confidence": "medium",
+          "trend_confidence_reason": "Напрям тренду значущий (p=0.032), але R²=0.27 - багато шуму чи сезонності, тож величина зміни ненадійна.",
+          "spike_sensitive": false,
+          "anomalies": [
+            "2026-05"
+          ],
+          "desktop_share": 0.192
+        },
+        {
+          "project": "en.wikipedia",
+          "article": "Oliver Tree",
+          "recent_monthly_avg": 1886744,
+          "year_ago_monthly_avg": 14435,
+          "yoy_growth_pct": 12970.3,
+          "recent_months": {
+            "2026-06": 4891250,
+            "2026-07": 510298,
+            "2026-08": 258684
+          },
+          "trend_confidence": "high",
+          "trend_confidence_reason": "Після вилучення сезонності: тренд статистично значущий (p=0.000) і пояснює істотну частку варіації (R²=0.95).",
+          "spike_sensitive": false,
+          "anomalies": [],
+          "desktop_share": 0.212
+        },
+        {
+          "project": "en.wikipedia",
+          "article": "Gianni Infantino",
+          "recent_monthly_avg": 1260552,
+          "year_ago_monthly_avg": 58579,
+          "yoy_growth_pct": 2051.9,
+          "recent_months": {
+            "2026-06": 712646,
+            "2026-07": 2533935,
+            "2026-08": 535076
+          },
+          "trend_confidence": "high",
+          "trend_confidence_reason": "Після вилучення сезонності: тренд статистично значущий (p=0.000) і пояснює істотну частку варіації (R²=0.91).",
+          "spike_sensitive": false,
+          "anomalies": [],
+          "desktop_share": 0.23
+        },
+        {
+          "project": "en.wikipedia",
+          "article": "Erling Haaland",
+          "recent_monthly_avg": 3549432,
+          "year_ago_monthly_avg": 193955,
+          "yoy_growth_pct": 1730.0,
+          "recent_months": {
+            "2026-06": 2549383,
+            "2026-07": 7668087,
+            "2026-08": 430825
+          },
+          "trend_confidence": "high",
+          "trend_confidence_reason": "Після вилучення сезонності: тренд статистично значущий (p=0.000) і пояснює істотну частку варіації (R²=0.82).",
+          "spike_sensitive": false,
+          "anomalies": [
+            "2025-01"
+          ],
+          "desktop_share": 0.212
+        }
+      ],
+      "news_spikes": [
+        {
+          "project": "en.wikipedia",
+          "article": "Lamine Yamal",
+          "recent_monthly_avg": 2843831,
+          "year_ago_monthly_avg": 541840,
+          "yoy_growth_pct": 424.8,
+          "trend_confidence": "low"
+        },
+        {
+          "project": "en.wikipedia",
+          "article": "Cristiano Ronaldo",
+          "recent_monthly_avg": 2850655,
+          "year_ago_monthly_avg": 1189565,
+          "yoy_growth_pct": 139.6,
+          "trend_confidence": "low"
+        }
+      ]
+    }
+  },
+  "caveats": [
+    "Порівняння рік до року: 2026-06..2026-08 проти 2025-06..2025-08",
+    "US: топ-списки країни доступні лише подобово - місяці оцінено за 4 днями; точні цифри й довіра нижче"
+  ]
+}
